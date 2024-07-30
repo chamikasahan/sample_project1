@@ -11,9 +11,13 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="container bg-light">
+    <div class="div-back container p-5">
       <div class="row mt-5 mb-5">
         <div class="col-lg-12 mt-5">
           <div class="one">
@@ -26,36 +30,54 @@
 
       <div class="row">
         <div class="col-lg-6">
-            <div class="carousel-container">
-                <input type="radio" name="carousel" id="carousel-1" checked>
-                <input type="radio" name="carousel" id="carousel-2">
-                <input type="radio" name="carousel" id="carousel-3">
+          <div class="carousel-container">
+            <input type="radio" name="carousel" id="carousel-1" checked />
+            <input type="radio" name="carousel" id="carousel-2" />
+            <input type="radio" name="carousel" id="carousel-3" />
 
-                <div class="carousel-slide">
-                    <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg" alt="Image 1">
-                    <img src="product-ideas-to-sell.webp" alt="Image 2">
-                    <img src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg" alt="Image 3">
-                </div>
-
-                <div class="carousel-navigation">
-                    <label for="carousel-1"></label>
-                    <label for="carousel-2"></label>
-                    <label for="carousel-3"></label>
-                </div>
+            <div class="carousel-slide">
+              <img
+                src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg"
+                alt="Image 1"
+              />
+              <img src="product-ideas-to-sell.webp" alt="Image 2" />
+              <img
+                src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg"
+                alt="Image 3"
+              />
             </div>
+
+            <div class="carousel-navigation">
+              <label for="carousel-1"></label>
+              <label for="carousel-2"></label>
+              <label for="carousel-3"></label>
+            </div>
+          </div>
         </div>
         <!-- end of col -->
 
         <div class="product-description col-lg-6">
-            <h2 class="text-warning">Product Description</h2>
+          <h2 class="text-warning bg-dark p-3">Product Description</h2>
 
-            <p id="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ullam, voluptate ad facilis impedit odit cum sunt dolore delectus repellendus atque omnis accusantium quibusdam, expedita blanditiis doloribus velit voluptates labore.</p>
+          <p id="para-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            ullam, voluptate ad facilis impedit odit cum sunt dolore delectus
+            repellendus atque omnis accusantium quibusdam, expedita blanditiis
+            doloribus velit voluptates labore.
+          </p>
+          <p class="mb-1 fs-5">Reviews</p> 
+          <div class="mb-3">
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star no-checked"></span>
+            <span class="fa fa-star no-checked"></span>
+          </div>
 
-            <hr>
+          <hr />
 
-            <p class="text-black-50 text fs-3"><s>$69.00</s></p>
-            <p class=" para-2 text-light fs-3">$39.99 (-50%)</p>
-        
+          <p class="text-black-50 text fs-3"><s>$69.00</s></p>
+          <p class="para-2 text-light fs-3">$39.99 (-50%)</p>
         </div>
         <!-- end of col -->
       </div>
@@ -63,94 +85,183 @@
     </div>
     <!-- end of container -->
 
-    <div class="container mt-5">
+    <div class="div-back container mt-5 p-4">
+      <h1 class="text-center">feedback section</h1>
 
-        <h1 class="text-center"> feedback section</h1>
+      <div class="row">
+        <div class="feedback-col col-lg-12 col-sm-12">
+          <div class="feedback-carousel-container">
+            <input type="radio" name="carousel" id="carousel-2-1" checked />
+            <input type="radio" name="carousel" id="carousel-2-2" />
+            <input type="radio" name="carousel" id="carousel-2-3" />
 
-        <div class="row">
-            <div class="feedback-col col-lg-12 col-sm-12">
-                <div class="feedback-carousel-container">
-                    <input type="radio" name="carousel" id="carousel-2-1" checked>
-                    <input type="radio" name="carousel" id="carousel-2-2">
-                    <input type="radio" name="carousel" id="carousel-2-3">
-    
-                    <div class="feedback-carousel-slide">
-                        <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg" alt="Image 1">
-                        <img src="product-ideas-to-sell.webp" alt="Image 2">
-                        <img src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg" alt="Image 3">
-                    </div>
-    
-                    <div class="carousel-navigation">
-                        <label for="carousel-2-1"></label>
-                        <label for="carousel-2-2"></label>
-                        <label for="carousel-2-3"></label>
-                    </div>
-                </div>
+            <div class="feedback-carousel-slide">
+              <img
+                src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg"
+                alt="Image 1"
+              />
+              <img src="product-ideas-to-sell.webp" alt="Image 2" />
+              <img
+                src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg"
+                alt="Image 3"
+              />
             </div>
-            <!-- end of col -->
+
+            <div class="carousel-navigation">
+              <label for="carousel-2-1"></label>
+              <label for="carousel-2-2"></label>
+              <label for="carousel-2-3"></label>
+            </div>
+          </div>
         </div>
+        <!-- end of col -->
+      </div>
     </div>
 
     <div class="container">
-        <div class="one mt-5 mb-5"> <h1>similer Products</h1></div>
-       
+      <div class="one mt-5 mb-5"><h1>similer Products</h1></div>
 
-        <div class="row">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">title here</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
 
-            <div class="col-lg-3">
-                <div class="card">
-                    <img src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+              <p class="mb-1">Reviews</p>
+              <div class="mb-3">
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star no-checked"></span>
+                <span class="fa fa-star no-checked"></span>
+              </div>
+              <div class="card-btn">
+              <a href="#" class="btn btn-warning">BUY NOW</a>
             </div>
-            <div class="col-lg-3">
-                <div class="card">
-                    <img src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
             </div>
-            <div class="col-lg-3">
-                <div class="card">
-                    <img src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card">
-                    <img src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
+          </div>
         </div>
-        <!-- end of raw -->
+        <!-- end of col -->
+        
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">title here</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <p class="mb-1">Reviews</p>
+              <div class="mb-3">
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star no-checked"></span>
+                <span class="fa fa-star no-checked"></span>
+              </div>
+
+              <div class="card-btn">
+                <a href="#" class="btn btn-warning">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of col -->
+
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">title here</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <p class="mb-1">Reviews</p>
+              <div class="mb-3">
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star no-checked"></span>
+                <span class="fa fa-star no-checked"></span>
+              </div>
+
+              <div class="card-btn">
+                <a href="#" class="btn btn-warning">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of col -->
+
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/product-backdrop-cinematic-smoke-realistic-design_53876-128288.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">title here</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <p class="mb-1">Reviews</p>
+              <div class="mb-3">
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star checked-star"></span>
+                <span class="fa fa-star no-checked"></span>
+                <span class="fa fa-star no-checked"></span>
+              </div>
+
+              <div class="card-btn">
+                <a href="#" class="btn btn-warning">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of col -->
+         
+      </div>
+      <!-- end of raw -->
     </div>
 
     <div class="footer container-fluid mt-5">
+      <div class="foot-heading">
+        <h1 class="foot-h1" data-heading="SHOP" contenteditable>
+          Shop Name Here
+        </h1>
+      </div>
 
-        <h1 class="text-warning mt-5 mb-5">Shop Name here</h1>
-
-              <!-- Button 1 -->
-              <div class="buttons d-flex justify-content-center">
-              <div class="button_slide slide_diagonal">BUTTON</div>
-              <div class="button_slide slide_diagonal">BUTTON</div>
-              <div class="button_slide slide_diagonal">BUTTON</div>
-            </div>
+      <!-- Button 1 -->
+      <div class="buttons d-flex justify-content-center">
+        <div class="button_slide slide_diagonal">BUTTON</div>
+        <div class="button_slide slide_diagonal">BUTTON</div>
+        <div class="button_slide slide_diagonal">BUTTON</div>
+      </div>
     </div>
   </body>
 </html>
